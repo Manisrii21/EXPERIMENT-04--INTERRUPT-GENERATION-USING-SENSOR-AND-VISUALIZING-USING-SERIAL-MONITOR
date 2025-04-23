@@ -4,7 +4,7 @@
 
 ###  NAME: MANI SRI LATHA M
 ###  ROLL NO : 212223110025
-###  DEPARTMENT:B.TECH IOT
+###  DEPARTMENT:B.E IOT
 ### Aim:
 To Interface a IR Sensor to digital port of iot development board  and generate an interrupt and visualize on the serial monitor 
 
