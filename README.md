@@ -166,13 +166,10 @@ PUTCHAR_PROTOTYPE
 
 ## Output screen shots of serial port utility   :
 
-![Uploading Screenshot 2025-04-23 102009.png…]()
 
  
  ## Circuit board :
 
-
- 
- 
+  
 ## Result :
 Interfacing a  IR SENSOR and interrupt is generated using external interrupt mode , visualized on serial port 
