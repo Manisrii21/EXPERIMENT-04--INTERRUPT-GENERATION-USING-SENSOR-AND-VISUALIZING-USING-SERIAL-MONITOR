@@ -1,10 +1,10 @@
 # EXPERIMENT-04-INTERRUPT-GENERATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR
 
-###  DATE: 
+###  DATE: 13/04/2025
 
-###  NAME: MANI SRI LATHA M
+###  NAME: M MANI SRI LATHA
 ###  ROLL NO : 212223110025
-###  DEPARTMENT:B.E IOT
+###  DEPARTMENT: BE.CSE(IOT)
 ### Aim:
 To Interface a IR Sensor to digital port of iot development board  and generate an interrupt and visualize on the serial monitor 
 
@@ -135,7 +135,7 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_USART2_UART_Init(void);
 
-#if defined(__GNUC__)
+#if defined(_GNUC_)
 #define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
 #endif
 int main(void)
@@ -167,13 +167,16 @@ PUTCHAR_PROTOTYPE
 
 ## Output screen shots of serial port utility   :
  
- ![image](https://github.com/user-attachments/assets/1011d527-8853-45bc-9793-9aa9a3824914)
+ ![WhatsApp Image 2025-04-23 at 11 06 35_67b4f512](https://github.com/user-attachments/assets/9f984d4f-42d7-439e-9ef2-44bd735fbf85)
 
  ## Circuit board :
+ <h3>object not dedected:</h3>
  
- ![Screenshot 2025-04-23 132513](https://github.com/user-attachments/assets/729a7ed0-2852-401e-9644-528947f432fc)
+ ![WhatsApp Image 2025-04-23 at 11 03 33_a373c05e](https://github.com/user-attachments/assets/bedb3207-52fe-411f-8ec1-a1c35021511e)
+ o<h3>object  dedected:</h3>
 
- ![Screenshot 2025-04-23 132526](https://github.com/user-attachments/assets/06ec6731-556c-4eb6-bd43-d332225cd167)
+ ![WhatsApp Image 2025-04-23 at 11 03 41_cc74b84e](https://github.com/user-attachments/assets/00d9482a-6457-4f64-998f-8b6d93aeeed6)
 
+ 
 ## Result :
 Interfacing a  IR SENSOR and interrupt is generated using external interrupt mode , visualized on serial port 
